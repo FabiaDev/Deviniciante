@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: hsla(30, 6%, 7%, 0.951);
+            text-align: justify;
+            border-radius: 50px;
+            margin-top: 5%;
+            margin-left: 4%;
+            margin-right: 70%;
+            border: 4px dashed rgb(39, 35, 37);
+            background-color: hsla(335, 77%, 91%, 0.951);
+        
+        }
+        
+        .empresa{
+            font-size: 16px;
+            border: 2px dashed rgb(21, 20, 23);
+            background-color: rgb(186, 109, 203);
+        }
+        
+        </style>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de recebimento</h1>
+    </header>
+    <form>
+
+    <label> Código do produto</label>
+    <input type="text" name="código" placeholder="ex. 1.23.456-8"> <br/>
+
+     <label>Tipo</label>
+     <input type="radio" name="tipo"> Importado
+     <input type="radio" name="tipo"> Nacional<br/>
+
+    <label> Data de Recebimento</label>
+    <input type="date" name="data-início" placeholder="dd-mm-yyyy"> <br/>
+
+     <label> Data de Vencimento</label>
+     <input type="date" name="Vencimento" placeholder="dd-mm-yyyy"><br/>
+     <label>Qual valor da compra</label>
+    <input type="text" name="Valor-da-compra"> <br/>
+    
+    <input type="submit" name="gravar" value="Gravar"><br/>
+
+    </form>
+
+    <div style=" margin-left: 10%;
+    margin-right: 10%;">
+        <h1 class="empresa"> Suas contas estão em dias</h1>
+
+        <p class="empresa"> Empresa tecnologia    LTDA</p>
+    
+    </div>
+
+</body>
+</html>
